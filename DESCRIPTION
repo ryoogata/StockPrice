@@ -1,0 +1,17 @@
+Package: StockPrice
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Ryo Ogata
+Maintainer: The package maintainer <ryo.ogata@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rvest
+    ,XML
+    ,dplyr
+    ,magrittr
+RoxygenNote: 6.1.0.9000
