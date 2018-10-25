@@ -61,7 +61,7 @@ getLatest300 <- function(CODE){
   all %<>% rownames %>% as.numeric %>% order(., decreasing = TRUE) %>% all[.,]
   rownames(all) <- NULL
 
-  names(all) <- c("Date", "Opening", "High", "Low", "Closing", "Yield", "Adjustment")
+  names(all) <- c("timeStamp", "Opening", "High", "Low", "Closing", "Yield", "Adjustment")
 
   return(all)
 }

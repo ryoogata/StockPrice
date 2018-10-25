@@ -37,7 +37,7 @@ getYearly <- function(CODE, YEAR){
   table1 %<>% rownames %>% as.numeric %>% order(., decreasing = TRUE) %>% table1[.,]
   rownames(table1) <- NULL
 
-  names(table1) <- c("Date", "Opening", "High", "Low", "Closing", "Yield", "Adjustment")
+  names(table1) <- c("timeStamp", "Opening", "High", "Low", "Closing", "Yield", "Adjustment")
 
   return(table1)
 }
